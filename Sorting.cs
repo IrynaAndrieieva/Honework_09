@@ -22,7 +22,7 @@ namespace Honework_09
 
         public void LactoseIntolerance()
         {
-            Console.WriteLine("This child is lactose intolerant, so his gift will contain lactose - free sweets:");
+            Console.WriteLine("This child is lactose intolerant, so his gift will contain lactose-free sweets:");
             Candy cand = new Candy("jelly", 2, "non");
 
             Console.WriteLine("The instance of jelly:");
