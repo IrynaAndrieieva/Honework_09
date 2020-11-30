@@ -14,7 +14,6 @@ namespace Honework_09
             gret.Welcome();
 
             Console.ReadLine();
-
         }
     }
 }

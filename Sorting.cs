@@ -76,8 +76,6 @@ namespace Honework_09
                     break;
 
             }
-
-
         }
     }
 }

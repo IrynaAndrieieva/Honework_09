@@ -48,13 +48,13 @@ namespace Honework_09
 
     public class Chocolate : Candy
     {
-        
+
         protected string cacao;
-        
+
         public Chocolate(string name, int sugar, string lactose, string cacao) :
             base(name, sugar, lactose)
         {
-            base.name = name; 
+            base.name = name;
             this.sugar = sugar;
             this.lactose = lactose;
             this.cacao = cacao;
@@ -85,7 +85,7 @@ namespace Honework_09
     {
         protected string fruit;
         public Pastila(string name, int sugar, string lactose)
-            :base(name, sugar, lactose)
+            : base(name, sugar, lactose)
         {
             base.name = name;
             this.sugar = sugar;
