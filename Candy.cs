@@ -41,7 +41,7 @@ namespace Honework_09
         {
             Console.WriteLine("The values of fields are:");
             Console.WriteLine($"Name = {name}");
-            Console.WriteLine($"Sugar = {sugar}");
+            Console.WriteLine($"Sugar = {sugar} gram");
             Console.WriteLine($"Lactose = {lactose}");
             Console.ReadLine();
         }
@@ -84,4 +84,21 @@ namespace Honework_09
         { }
     }
 
+    public class Pastila : Candy
+    {
+        protected string fruit;
+        public Pastila(string name, int sugar, string lactose)
+            :base(name, sugar, lactose)
+        {
+            base.name = name;
+            this.sugar = sugar;
+            this.lactose = lactose;
+        }
+
+        public string Fruit
+        {
+            get { return fruit; }
+            set { fruit = value; }
+        }
+    }
 }

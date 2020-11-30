@@ -16,7 +16,10 @@ namespace Honework_09
             Console.WriteLine("---------------------");
             Console.WriteLine("The instance of Chocolate from diabetes:");
             sugfrch.Print();
-
+            Console.WriteLine("---------------------");
+            Pastila past = new Pastila("Pastila", 0, "non");
+            Console.WriteLine("The instance of Pastila:");
+            past.Print();
             Console.ReadLine();
         }
 
@@ -27,6 +30,10 @@ namespace Honework_09
 
             Console.WriteLine("The instance of jelly:");
             cand.Print();
+            Console.WriteLine("---------------------");
+            Pastila past = new Pastila("Pastila", 0, "non");
+            Console.WriteLine("The instance of Pastila:");
+            past.Print();
             Console.ReadLine();
         }
 
@@ -38,6 +45,10 @@ namespace Honework_09
             Console.WriteLine("---------------------");
             Console.WriteLine("The instance of Chocolate:");
             choc.Print();
+            Console.WriteLine("---------------------");
+            Pastila past = new Pastila("Pastila", 0, "non");
+            Console.WriteLine("The instance of Pastila:");
+            past.Print();
             Console.ReadLine();
         }
 
