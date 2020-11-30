@@ -8,21 +8,43 @@ namespace Honework_09
 {
     class AgeWeight
     {
+
+        public void Preschooler()
+        {
+            Console.WriteLine("Candy weight: 1 kg");
+        }
+
+        public void PrimaryClasses()
+        {
+            Console.WriteLine("Candy weight: 1,5 kg");
+        }
+
+        public void HighSchool()
+        {
+            Console.WriteLine("Candy weight: 2 kg");
+        }
+
         public void AgeRight(int age)
         {
-            //switch { }
-            if (age > 18)
+
+            switch (age)
             {
-                Console.WriteLine("You write wrong age!");
+
+                case 1:
+                    Preschooler();
+                    break;
+                case 2:
+                    PrimaryClasses();
+                    break;
+                case 3:
+                    HighSchool();
+                    break;
+
             }
-            else if (age < 4)
-            {
-                Console.WriteLine("You write wrong age!");
-            }
-            else
-            {
-                Console.WriteLine("You write right age!");
-            }
+
+
         }
+
+
     }
 }
