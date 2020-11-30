@@ -77,5 +77,12 @@ namespace Honework_09
         }
     }
 
+    public class SugarFreeChocolate : Chocolate
+    {
+        public SugarFreeChocolate(string name, int sugar, string lactose, string cacao)
+            : base(name, sugar, lactose, cacao)
+        { }
+    }
+
 
 }
