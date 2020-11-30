@@ -28,7 +28,7 @@ namespace Honework_09
             {
                 Console.WriteLine("You write wrong age!");
             }
-            else if(age < 4)
+            else if (age < 4)
             {
                 Console.WriteLine("You write wrong age!");
             }
