@@ -13,23 +13,6 @@ namespace Honework_09
             Greeting gret = new Greeting();
             gret.Welcome();
 
-            Candy cand = new Candy("jelly", 2, "non");
-
-            Console.WriteLine("The instance of jelly:");
-            cand.Print();
-
-            Chocolate choc = new Chocolate("Chocolate", 3, "yes", "yes");
-
-            Console.WriteLine("---------------------");
-            Console.WriteLine("The instance of Chocolate:");
-            choc.Print();
-
-
-            SugarFreeChocolate sugfrch = new SugarFreeChocolate("Chocolate", 0, "yes", "yes");
-            Console.WriteLine("---------------------");
-            Console.WriteLine("The instance of Chocolate from diabetes:");
-            sugfrch.Print();
-
             Console.ReadLine();
 
         }
