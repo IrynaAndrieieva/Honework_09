@@ -36,10 +36,8 @@ namespace Honework_09
             get { return lactose; }
             set { lactose = value; }
         }
-
         public void Print()
         {
-            Console.WriteLine("The values of fields are:");
             Console.WriteLine($"Name = {name}");
             Console.WriteLine($"Sugar = {sugar} gram");
             Console.WriteLine($"Lactose = {lactose}");
@@ -59,7 +57,6 @@ namespace Honework_09
             base.name = name; 
             this.sugar = sugar;
             this.lactose = lactose;
-
             this.cacao = cacao;
         }
 
