@@ -23,6 +23,13 @@ namespace Honework_09
             Console.WriteLine("---------------------");
             Console.WriteLine("The instance of Chocolate:");
             choc.Print();
+
+
+            SugarFreeChocolate sugfrch = new SugarFreeChocolate("Chocolate", 0, "yes", "yes");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("The instance of Chocolate from diabetes:");
+            sugfrch.Print();
+
             Console.ReadLine();
 
         }
