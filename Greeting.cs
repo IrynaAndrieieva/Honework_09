@@ -18,7 +18,8 @@ namespace Honework_09
             Console.WriteLine("Choice particular qualities:");
             Console.WriteLine("push: A - diabetes, B - lactose intolerance, C - non");
             string choice = Console.ReadLine();
-            PushChoice(choice);
+            Sorting sort = new Sorting();
+            sort.PushChoice(choice);
 
         }
 
@@ -37,27 +38,7 @@ namespace Honework_09
                 Console.WriteLine("You write right age!");
             }
         }
-        public void PushChoice(string choice)
-        {
-
-
-            //switch (choice)
-            //{
-
-            //    case "A":
-            //        Diabetes();
-            //        break;
-            //    case "B":
-            //        LactoseIntolerance();
-            //        break;
-            //    case "C":
-            //        Non();
-            //        break;
-
-            //}
-
-
-        }
+        
 
     }
 }
