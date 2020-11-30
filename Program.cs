@@ -10,6 +10,10 @@ namespace Honework_09
     {
         static void Main(string[] args)
         {
+            Greeting gret = new Greeting();
+            gret.Welcome();
+
+
         }
     }
 }
