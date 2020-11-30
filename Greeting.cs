@@ -14,6 +14,7 @@ namespace Honework_09
             Console.WriteLine("Plese< write and choice next information");
             Console.WriteLine("Write age (4-18)");
             int age = Convert.ToInt32(Console.ReadLine());
+            AgeRight(age);
             Console.WriteLine("Choice particular qualities:");
             Console.WriteLine("push: A - diabetes, B - lactose intolerance, C - non");
             string choice = Console.ReadLine();
@@ -21,7 +22,22 @@ namespace Honework_09
 
         }
 
-        public static void PushChoice(string choice)
+        private void AgeRight(int age)
+        {
+            if (age > 18)
+            {
+                Console.WriteLine("You write wrong age!");
+            }
+            else if(age < 4)
+            {
+                Console.WriteLine("You write wrong age!");
+            }
+            else
+            {
+                Console.WriteLine("You write right age!");
+            }
+        }
+        public void PushChoice(string choice)
         {
 
 

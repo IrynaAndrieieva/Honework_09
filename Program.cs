@@ -12,7 +12,7 @@ namespace Honework_09
         {
             Greeting gret = new Greeting();
             gret.Welcome();
-
+            
 
         }
     }
