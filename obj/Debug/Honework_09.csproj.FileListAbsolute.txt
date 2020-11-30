@@ -1,0 +1,7 @@
+E:\Обучение. А_Level\Homework\HW09\Honework_09\obj\Debug\Honework_09.csprojAssemblyReference.cache
+E:\Обучение. А_Level\Homework\HW09\Honework_09\obj\Debug\Honework_09.csproj.CoreCompileInputs.cache
+E:\Обучение. А_Level\Homework\HW09\Honework_09\bin\Debug\Honework_09.exe.config
+E:\Обучение. А_Level\Homework\HW09\Honework_09\bin\Debug\Honework_09.exe
+E:\Обучение. А_Level\Homework\HW09\Honework_09\bin\Debug\Honework_09.pdb
+E:\Обучение. А_Level\Homework\HW09\Honework_09\obj\Debug\Honework_09.exe
+E:\Обучение. А_Level\Homework\HW09\Honework_09\obj\Debug\Honework_09.pdb
